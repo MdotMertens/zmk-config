@@ -60,7 +60,7 @@
 		&kp Q        &kp N7         &kp N8        &kp N9        &kp G                  &kp J        &kp L        &kp U        &kp Y     &kp UNDERSCORE
 		&kp A        &kp N4         &kp N5        &kp N6        &kp D 			    &kp LEFT     &kp UP       &kp DOWN     &kp RIGHT    &kp O
 		&mt N0       &kp N1         &kp N2        &kp N3        &kp B				&kp K        &kp M        &kp COMMA    &kp DOT      &mt LSFT SLASH
-          				                        &lt 1 SPACE  &kp TAB  		        &kp RETURN   &kp BSPC 
+          				                        &trans  &kp TAB  		        &kp RETURN   &kp BSPC 
 		>;
 		};	
         
