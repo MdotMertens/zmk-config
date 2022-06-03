@@ -29,18 +29,19 @@
             key-positions = <2 3>;
             bindings = <&kp RBKT>;
         };
-
-        combo_rbrc {
-            timeout-ms = <50>;
-            key-positions = <0 1 2>;
-            bindings = <&kp RBRC>;
-        };
         
          combo_lbrc {
             timeout-ms = <50>;
             key-positions = <1 2 3>;
             bindings = <&kp LBRC>;
         };
+
+        combo_rbrc {
+            timeout-ms = <50>;
+            key-positions = <0 1 2>;
+            bindings = <&kp RBRC>;
+        };
+
         
         combo_lpar {
             timeout-ms = <50>;
@@ -81,9 +82,9 @@
 
         second_layer {
 		bindings = <
-		&kp Q        &kp N7         &kp N8        &kp N9        &kp G                  &kp J        &kp L        &kp U        &kp Y     &kp UNDERSCORE
-		&kp A        &kp N4         &kp N5        &kp N6        &kp D 			    &kp LEFT     &kp UP       &kp DOWN     &kp RIGHT    &kp O
-		&kp N0       &kp N1         &kp N2        &kp N3        &kp B				&kp K        &kp M        &kp COMMA    &kp DOT      &mt LSFT SLASH
+		&kp Q        &kp N7         &kp N8        &kp N9        &kp G               &kp QT        &kp POUND    &kp AMPERSAND  &kp TILDE     &kp COLON
+		&kp A        &kp N4         &kp N5        &kp N6        &kp D 			    &kp LEFT     &kp DOWN       &kp UP     &kp RIGHT    &kp O
+		&kp N0       &kp N1         &kp N2        &kp N3        &kp B				&kp K        &kp M        &kp COMMA    &kp DOT &mt LSFT SLASH
           				                        &trans  &kp TAB  		        &kp RETURN   &kp BSPC 
 		>;
 		};	
