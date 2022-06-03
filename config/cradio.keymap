@@ -59,8 +59,7 @@
             timeout-ms = <50>;
             key-positions = <10 11 12>;
             bindings = <&kp LT>;
-        };
-        
+        };      
         combo_gt {
             timeout-ms = <50>;
             key-positions = <11 12 13>;
@@ -73,7 +72,7 @@
             bindings = <&bootloader>;           
         };
 
-        combo_bootloader_l{
+        combo_bootloader_r{
             timeout-ms = <50>;
             key-positions = <26 27 28 29>;
             bindings = <&bootloader>;           
@@ -88,7 +87,7 @@
 		&kp Q        &kp W         &kp F        &kp P        &kp G                  &kp J        &kp L        &kp U        &kp Y        &kp UNDERSCORE
 		&kp A        &kp R         &kp S        &kp T        &kp D 			        &kp H        &kp N        &kp E        &kp I        &kp O
 		&mt LCTRL Z  &mt LALT X    &mt LGUI C   &mt LSHFT V  &kp B				    &kp K        &mt RSHFT M  &mt RGUI COMMA &mt RALT DOT &mt RCTRL SLASH
-          				                        &lt 1 SPACE  &kp TAB  		        &lt 2 RETURN   &kp BSPC 
+          				                        &lt 1 SPACE  &kp TAB  		        &lt  RETURN   &kp BSPC 
 		>;
 		};
 
