@@ -95,9 +95,9 @@
 		};	
         third_layer {
 		bindings = <
-		&kp Q        &kp N7         &kp N8        &kp N9        &kp G                  &kp J        &kp L        &kp U        &kp Y     &kp UNDERSCORE
-		&sk LCTRL    &sk LALT       &sk LMETA     &sk LSHFT     &kp D 			    &kp LEFT     &kp UP       &kp DOWN     &kp RIGHT    &kp O
-		&bootloader    &kp C_VOL_UP       &kp C_VOL_DN     &kp A     &kp B				&kp K        &kp M        &kp COMMA    &kp DOT      &mt LSFT SLASH
+		&kp Q        &kp N7         &kp N8        &kp N9        &kp G                   &kp J        &kp L        &kp U        &kp Y     &kp UNDERSCORE
+		&sk LCTRL    &sk LALT       &sk LMETA     &sk LSHFT     &kp D 			        &kp RSHFT     &kp RMETA       &kp RALT     &kp RCTRL    &kp O
+		&bootloader    &kp C_VOL_UP       &kp C_VOL_DN     &kp A     &kp B				&kp K        &kp M        &kp COMMA    &kp DOT      &bootloader
           				                        &trans  &kp TAB  		        &kp RETURN   &kp BSPC 
 		>;
 		};	
