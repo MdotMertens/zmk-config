@@ -66,10 +66,16 @@
             bindings = <&kp GT>;
         };
 
-        reset_right {
+        escape_combo {
             timeout-ms = <50>;
             key-positions = <0 10>;
             bindings = <&kp ESC>;
+        };
+
+        quote_combo {
+            timeout-ms = <50>;
+            key-positions = <0 13>;
+            bindings = <&kp SINGLE_QUOTE>;
         };
     };
 
@@ -95,8 +101,8 @@
 		};	
         third_layer {
 		bindings = <
-		&kp Q        &kp N7         &kp N8        &kp N9        &kp G                   &kp J        &kp L        &kp U        &kp Y     &kp UNDERSCORE
-		&sk LCTRL    &sk LALT       &sk LMETA     &sk LSHFT     &kp D 			        &kp RSHFT     &kp RMETA       &kp RALT     &kp RCTRL    &kp O
+		&kp Q        &kp N7         &kp N8        &kp N9        &kp G                   &kp J        &kp L        &kp U        &kp Y        &kp UNDERSCORE
+		&sk LCTRL    &sk LALT       &sk LMETA     &sk LSHFT     &kp D 			        &kp O        &sk RSHFT    &sk RMETA    &sk RALT     &sk RCTRL   
 		&bootloader    &kp C_VOL_UP       &kp C_VOL_DN     &kp A     &kp B				&kp K        &kp M        &kp COMMA    &kp DOT      &bootloader
           				                        &trans  &kp TAB  		        &kp RETURN   &kp BSPC 
 		>;
