@@ -60,7 +60,7 @@
             key-positions = <10 11 12>;
             bindings = <&kp LT>;
         };
-,        
+        
         combo_gt {
             timeout-ms = <50>;
             key-positions = <11 12 13>;
@@ -88,7 +88,7 @@
 		&kp Q        &kp W         &kp F        &kp P        &kp G                  &kp J        &kp L        &kp U        &kp Y        &kp UNDERSCORE
 		&kp A        &kp R         &kp S        &kp T        &kp D 			        &kp H        &kp N        &kp E        &kp I        &kp O
 		&mt LCTRL Z  &mt LALT X    &mt LGUI C   &mt LSHFT V  &kp B				    &kp K        &mt RSHFT M  &mt RGUI COMMA &mt RALT DOT &mt RCTRL SLASH
-          				                        &lt 1 SPACE  &kp TAB  		        &mo 1 RETURN   &kp BSPC 
+          				                        &lt 1 SPACE  &kp TAB  		        &lt 2 RETURN   &kp BSPC 
 		>;
 		};
 
@@ -99,7 +99,16 @@
 		&kp N0       &kp N1         &kp N2        &kp N3        &kp B				&kp K        &kp M        &kp COMMA    &kp DOT &mt LSFT SLASH
           				                        &trans  &kp TAB  		        &kp RETURN   &kp BSPC 
 		>;
-		};	
+		};
+
+        third_layer {
+		bindings = <
+		&kp Q        &kp N7         &kp N8        &kp N9        &kp G               &kp QT        &kp POUND    &kp AMPERSAND  &kp TILDE     &kp COLON
+		&kp A        &kp N4         &kp N5        &kp N6        &kp D 			    &kp LEFT     &kp DOWN       &kp UP     &kp RIGHT    &kp O
+		&kp N0       &kp N1         &kp N2        &kp N3        &kp B				&kp K        &kp M        &kp COMMA    &kp DOT &mt LSFT SLASH
+          				                        &trans  &kp TAB  		        &kp RETURN   &kp BSPC 
+		>;
+		};		
         
 	};
 };
