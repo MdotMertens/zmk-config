@@ -80,7 +80,7 @@
         reset_right {
             timeout-ms = <50>;
             key-positions = <0 9>;
-            bindings = <&kp esc>;
+            bindings = <&kp ESC>;
         };
     };
 
