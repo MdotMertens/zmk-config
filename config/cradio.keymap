@@ -29,19 +29,18 @@
             key-positions = <2 3>;
             bindings = <&kp RBKT>;
         };
-        
-         combo_lbrc {
-            timeout-ms = <50>;
-            key-positions = <1 2 3>;
-            bindings = <&kp LBRC>;
-        };
 
         combo_rbrc {
             timeout-ms = <50>;
             key-positions = <0 1 2>;
             bindings = <&kp RBRC>;
         };
-
+        
+         combo_lbrc {
+            timeout-ms = <50>;
+            key-positions = <1 2 3>;
+            bindings = <&kp LBRC>;
+        };
         
         combo_lpar {
             timeout-ms = <50>;
@@ -59,23 +58,12 @@
             timeout-ms = <50>;
             key-positions = <10 11 12>;
             bindings = <&kp LT>;
-        };      
+        };
+        
         combo_gt {
             timeout-ms = <50>;
             key-positions = <11 12 13>;
             bindings = <&kp GT>;
-        };
-
-        combo_bootloader_l{
-            timeout-ms = <50>;
-            key-positions = <20 21 22 23>;
-            bindings = <&bootloader>;           
-        };
-
-        combo_bootloader_r{
-            timeout-ms = <50>;
-            key-positions = <26 27 28 29>;
-            bindings = <&bootloader>;           
         };
     };
 
@@ -87,27 +75,18 @@
 		&kp Q        &kp W         &kp F        &kp P        &kp G                  &kp J        &kp L        &kp U        &kp Y        &kp UNDERSCORE
 		&kp A        &kp R         &kp S        &kp T        &kp D 			        &kp H        &kp N        &kp E        &kp I        &kp O
 		&mt LCTRL Z  &mt LALT X    &mt LGUI C   &mt LSHFT V  &kp B				    &kp K        &mt RSHFT M  &mt RGUI COMMA &mt RALT DOT &mt RCTRL SLASH
-          				                        &lt 1 SPACE  &kp TAB  		        &lt 2 RETURN   &kp BSPC 
+          				                        &lt 1 SPACE  &kp TAB  		        &kp RETURN   &kp BSPC 
 		>;
 		};
 
         second_layer {
 		bindings = <
-		&kp Q        &kp N7         &kp N8        &kp N9        &kp G               &kp QT        &kp POUND    &kp AMPERSAND  &kp TILDE     &kp Q
-		&kp A        &kp N4         &kp N5        &kp N6        &kp D 			    &kp LEFT     &kp DOWN       &kp UP     &kp RIGHT    &kp O
-		&kp N0       &kp N1         &kp N2        &kp N3        &kp B				&kp K        &kp M        &kp COMMA    &kp DOT &mt LSFT SLASH
+		&kp Q        &kp N7         &kp N8        &kp N9        &kp G                  &kp J        &kp L        &kp U        &kp Y     &kp UNDERSCORE
+		&kp A        &kp N4         &kp N5        &kp N6        &kp D 			    &kp LEFT     &kp UP       &kp DOWN     &kp RIGHT    &kp O
+		&kp N0       &kp N1         &kp N2        &kp N3        &kp B				&kp K        &kp M        &kp COMMA    &kp DOT      &mt LSFT SLASH
           				                        &trans  &kp TAB  		        &kp RETURN   &kp BSPC 
 		>;
-		};
-
-        third_layer {
-		bindings = <
-		&kp Q        &kp N7         &kp N8        &kp N9        &kp G               &kp QT        &kp POUND    &kp AMPERSAND  &kp TILDE     &kp SEMI
-		&kp A        &kp N4         &kp N5        &kp N6        &kp D 			    &kp LEFT     &kp DOWN       &kp UP     &kp RIGHT    &kp O
-		&kp N0       &kp N1         &kp N2        &kp N3        &kp B				&kp K        &kp M        &kp COMMA    &kp DOT &mt LSFT SLASH
-          				                        &trans  &kp TAB  		        &kp RETURN   &kp BSPC 
-		>;
-		};		
+		};	
         
 	};
 };
