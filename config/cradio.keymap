@@ -110,7 +110,7 @@
 
     second_layer {
 		bindings = <
-		&kp Q        &kp N7         &kp N8        &kp N9        &kp G                  &kp J        &kp L        &kp AMPERSAND        &kp COLON     &kp UNDERSCORE
+		&kp Q        &kp N7         &kp N8        &kp N9        &kp G                  &kp J        &kp L        &kp U        &kp Y     &kp UNDERSCORE
 		&kp A        &kp N4         &kp N5        &kp N6        &kp D 			    &kp LEFT     &kp UP       &kp DOWN     &kp RIGHT    &kp O
 		&kp N0       &kp N1         &kp N2        &kp N3        &kp B				&kp K        &kp M        &kp COMMA    &kp DOT      &mt LSFT SLASH
           				                        &trans  &kp TAB  		        &kp RETURN   &kp BSPC 
@@ -120,7 +120,7 @@
 
     third_layer {
 		bindings = <
-		&kp Q        &kp N7         &kp N8        &kp N9        &kp G                  &kp J        &kp L        &kp AMPERSAND        &kp COLON     &kp UNDERSCORE
+		&kp Q        &kp N7         &kp N8        &kp N9        &kp G                  &kp J        &kp L        &kp U        &kp Y     &kp UNDERSCORE
 		&sk LCTRL    &sk LALT       &sk LMETA     &sk LSHFT        &kp D 			    &kp LEFT     &sk RSHFT    &sk RMETA       &sk RALT     &sk RCTRL 
 		&kp N0       &kp N1         &kp N2        &kp N3        &kp B				&kp K        &kp M        &kp COMMA    &kp DOT      &mt LSFT SLASH
           				                        &trans  &kp TAB  		        &kp RETURN   &kp BSPC 
