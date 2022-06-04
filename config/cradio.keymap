@@ -78,20 +78,20 @@
             bindings = <&kp COLON>;
         };
         
-        combo_colon {
+        combo_scolon {
             timeout-ms = <50>;
             key-positions = <12 21>;
             bindings = <&kp SEMI>;
         };
         
 
-        combo_colon {
+        combo_eq {
             timeout-ms = <50>;
             key-positions = <12 21>;
             bindings = <&kp EQUAL>;
         };
         
-        combo_colon {
+        combo_minus {
             timeout-ms = <50>;
             key-positions = <26 18>;
             bindings = <&kp MINUS>;
