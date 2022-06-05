@@ -74,13 +74,13 @@
         
         combo_colon {
             timeout-ms = <50>;
-            key-positions = <22 7>;
+            key-positions = <22 6>;
             bindings = <&kp COLON>;
         };
         
         combo_scolon {
             timeout-ms = <50>;
-            key-positions = <12 21>;
+            key-positions = <11 21>;
             bindings = <&kp SEMI>;
         };
         
@@ -110,8 +110,8 @@
             if-layers = <1 2>;
             then-layer = <3>;
         };
-    };
-
+    }
+;
 
     keymap {
         compatible = "zmk,keymap";
@@ -128,7 +128,7 @@
 	
         second_layer {
 		bindings = <
-		&kp N1       &kp N2         &kp N3        &kp N4      &kp N5            &kp N6        &kp N7       &kp N8       &kp N9       &kp N0
+		&kp N1       &kp N2         &kp N3    &kp N4      &kp N5            &kp N6        &kp N7       &kp N8       &kp N9       &kp N0
 		&sk LCTRL    &sk LALT       &sk LMETA     &sk LSHFT   &trans            &kp LEFT      &kp UP       &kp DOWN     &kp RIGHT    &trans    
 		&trans       &trans         &trans        &trans      &trans		    &trans        &trans       &trans       &trans       &trans
           				                          &trans      &trans  		    &trans        &trans 
