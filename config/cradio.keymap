@@ -121,7 +121,7 @@
 		&kp Q        &kp W        &kp F        &kp P        &kp G               &kp J        &kp L        &kp U        &kp Y        &kp ESC 
 		&kp A        &kp R        &kp S        &kp T        &kp D 			    &kp H        &kp N        &kp E        &kp I        &kp O
 		&mt LSHIFT Z &kp X        &kp C        &kp V        &kp B				&kp K        &kp M        &kp COMMA    &kp DOT      &mt LSHIFT SLASH
-          				                       &lt 1 SPACE  &kp TAB  		    &lt 2 RETURN &kp BSPC 
+          				                       &lt 2 SPACE  &kp TAB  		    &lt 1 RETURN &kp BSPC 
 		>;
 		};
 
@@ -137,7 +137,7 @@
 		bindings = <
 		&kp N1       &kp N2         &kp N3        &kp N4      &kp N5            &kp N6        &kp N7       &kp N8       &kp N9       &kp N0
 		&trans       &trans 	    &trans        &trans      &trans            &trans        &sk RSHFT    &sk RMETA    &sk RALT     &sk RCTRL    
-		&trans       &trans         &trans       &trans      &trans		    &trans        &trans       &trans       &trans       &trans
+		&trans       &trans         &trans        &trans      &trans		    &trans        &trans       &trans       &trans       &trans
           				                          &trans      &trans  		    &trans        &trans 
 		>;
 		};
