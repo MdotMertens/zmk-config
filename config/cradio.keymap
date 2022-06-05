@@ -114,31 +114,32 @@
 
 
     keymap {
-        compatible = "zmk,keymap;"
+        compatible = "zmk,keymap";
                 
        	default_layer {
 		bindings = <
 		&kp Q        &kp W        &kp F        &kp P        &kp G               &kp J        &kp L        &kp U        &kp Y        &kp SEMI 
 		&kp A        &kp R        &kp S        &kp T        &kp D 			    &kp H        &kp N        &kp E        &kp I        &kp O
 		&mt LSHIFT Z &kp X        &kp C        &kp V        &kp B				&kp K        &kp M        &kp COMMA    &kp DOT      &mt LSHIFT SLASH
-          				                       &lt 2 SPACE  &kp TAB  		    &lt 1 RETURN &kp BSPC 
+          				                       &lt 1 SPACE  &kp TAB  		    &lt 1 RETURN &kp BSPC 
 		>;
 		};
 
-        first_layer {
-		bindings = <
-		&kp EXCL     &kp AT       &kp POUND     &kp DLLR      &kp PRCNT         &kp CARET    &kp AMPS     &kp ASTRK    &kp MINUS    &kp EQUAL
-		&sk LCTRL    &sk LALT     &sk LMETA     &sk LSHFT     &trans 			&kp LEFT     &kp UP       &kp DOWN     &kp RIGHT    &kp O
-		&trans       &trans       &trans        &trans        &trans			&kp C_VOL_DN &kp C_PREV   &kp C_PP     &kp C_NEXT   &kp C_VOL_UP
-          				                        &trans        &trans   		    &kp RETURN   &kp BSPC 
-		>;
-		};	
+	
         second_layer {
 		bindings = <
 		&kp N1       &kp N2         &kp N3        &kp N4      &kp N5            &kp N6        &kp N7       &kp N8       &kp N9       &kp N0
-		&trans       &trans 	    &trans        &trans      &trans            &trans        &sk RSHFT    &sk RMETA    &sk RALT     &sk RCTRL    
+		&sk LCTRL    &sk LALT       &sk LMETA     &sk LSHFT   &trans            &kp LEFT      &kp UP       &kp DOWN     &kp RIGHT    &trans    
 		&trans       &trans         &trans        &trans      &trans		    &trans        &trans       &trans       &trans       &trans
           				                          &trans      &trans  		    &trans        &trans 
+		>;
+		};
+                first_layer {
+		bindings = <
+		&kp EXCL     &kp AT       &kp POUND     &kp DLLR      &kp PRCNT         &kp CARET    &kp AMPS     &kp ASTRK    &kp MINUS    &kp EQUAL
+		&kp SEMI     &kp SQT      &trans        &trans        &trans 			&trans       &sk RSHFT    &sk RMETA    &sk RALT     &sk RCTRL
+		&trans       &trans       &trans        &trans        &trans			&kp C_VOL_DN &kp C_PREV   &kp C_PP     &kp C_NEXT   &kp C_VOL_UP
+          				                        &trans        &trans   		    &kp RETURN   &kp BSPC 
 		>;
 		};
 
